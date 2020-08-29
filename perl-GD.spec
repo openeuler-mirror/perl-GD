@@ -1,10 +1,10 @@
 Name:           perl-GD
-Version:        2.71
+Version:        2.72
 Release:        1
 Summary:        A perl5 interface to Thomas Boutell's gd library
 License:        GPL+ or Artistic 2.0
 URL:            https://metacpan.org/release/GD
-Source0:        https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.71.tar.gz
+Source0:        https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.72.tar.gz
 
 BuildRequires:  coreutils findutils gcc gd-devel make perl-devel
 BuildRequires:  perl-generators perl-interpreter perl(ExtUtils::MakeMaker)
@@ -66,5 +66,8 @@ make test
 %{_mandir}/man*/*
 
 %changelog
+* Thu Aug 20 2020 SimpleUpdate Robot <tc@openeuler.org> - 2.72-1
+- Upgrade to version 2.72
+
 * Mon Feb 10 2020 openEuler Buildteam <buildteam@openeuler.org> - 2.71-1
 - Package init
