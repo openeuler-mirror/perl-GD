@@ -1,5 +1,5 @@
 Name:           perl-GD
-Version:        2.73
+Version:        2.76
 Release:        1
 Summary:        A perl5 interface to Thomas Boutell's gd library
 License:        GPL+ or Artistic 2.0
@@ -66,6 +66,9 @@ make test
 %{_mandir}/man*/*
 
 %changelog
+* Fri Apr 29 2022 hkgy <kaguyahatu@outlook.com> - 2.76-1
+* Upgrade version to 2.76
+
 * Thu Jan 28 2021 liudabo <liudabo1@huawei.com> - 2.73-1
 - upgrade version to 2.73
 
